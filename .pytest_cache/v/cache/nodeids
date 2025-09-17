@@ -1,0 +1,7 @@
+[
+  "week03/test_address.py::test_extract_city",
+  "week03/test_address.py::test_extract_state",
+  "week03/test_address.py::test_extract_zipcode",
+  "week03/test_words.py::test_prefix",
+  "week03/test_words.py::test_suffix"
+]
