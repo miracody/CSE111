@@ -2,6 +2,12 @@
   "week03/test_address.py::test_extract_city",
   "week03/test_address.py::test_extract_state",
   "week03/test_address.py::test_extract_zipcode",
+  "week03/test_water_flow.py::test_pressure_gain_from_water_height",
+  "week03/test_water_flow.py::test_pressure_loss_from_fittings",
+  "week03/test_water_flow.py::test_pressure_loss_from_pipe",
+  "week03/test_water_flow.py::test_pressure_loss_from_pipe_reduction",
+  "week03/test_water_flow.py::test_reynolds_number",
+  "week03/test_water_flow.py::test_water_column_height",
   "week03/test_words.py::test_prefix",
   "week03/test_words.py::test_suffix"
 ]
