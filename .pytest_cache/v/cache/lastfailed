@@ -1,7 +1,4 @@
 {
-  "week03/test_water_flow.py::test_pressure_gain_from_water_height": true,
-  "week03/test_water_flow.py::test_pressure_loss_from_pipe": true,
-  "week03/test_water_flow.py::test_reynolds_number": true,
-  "week03/test_water_flow.py::test_pressure_loss_from_pipe_reduction": true,
-  "week03/test_water_flow.py": true
+  "week03/test_water_flow.py::test_convert_kilopascals_to_psi": true,
+  "week03/test_water_flow.py::test_convert_kpa_to_psi": true
 }
