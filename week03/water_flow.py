@@ -1,6 +1,6 @@
 # Enhancements:
 # - Defined constants for gravity, water density, and viscosity.
-# - Added PSI conversion function and printed pressure in both kPa and PSI.
+# - Added PSI conversion function and printed pressure in both kilopascals and PSI.
 # - Added test function to validate PSI conversion.
 
 
@@ -36,8 +36,8 @@ def pressure_loss_from_pipe_reduction(larger_diameter, fluid_velocity, reynolds_
     k = (0.1 + 50 / reynolds_number) * (((larger_diameter / smaller_diameter) ** 4) - 1)
     return -k * WATER_DENSITY * fluid_velocity**2 / 1000
 
-def convert_kilopascals_to_psi(pressure):
-    return kpa / 6.89476
+def convert_kilopascals_to_psi(kilopascals):
+    return kilopascals / 6.89476
 
 def main():
     tower_height = float(input("Height of water tower (meters): "))
@@ -62,5 +62,5 @@ def main():
 
     pressure += pressure_loss_from_pipe(diameter, length2, friction, velocity)
 
-    psi = convert_kpa_to_psi(pressure)
+    psi = convert_kilopascals_to_psi(pressure)
     print(f"Pressure at house: {pressure:.1f} kilopascals ({psi:.2f} psi)")
