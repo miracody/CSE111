@@ -11,5 +11,8 @@
   "week03/test_water_flow.py::test_reynolds_number",
   "week03/test_water_flow.py::test_water_column_height",
   "week03/test_words.py::test_prefix",
-  "week03/test_words.py::test_suffix"
+  "week03/test_words.py::test_suffix",
+  "week04/test_chemistry.py::test_compute_molar_mass",
+  "week04/test_chemistry.py::test_make_periodic_table",
+  "week04/test_chemistry.py::test_parse_formula"
 ]
