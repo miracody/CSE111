@@ -1,6 +1,6 @@
 # Copyright 2020, Brigham Young University-Idaho. All rights reserved.
 
-from receipt import read_dictionary
+from groceryshop.receipt import read_dictionary
 from os import path
 from tempfile import mktemp
 from pytest import approx
