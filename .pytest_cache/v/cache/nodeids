@@ -1,4 +1,5 @@
 [
+  "grocery_store/test_products.py::test_read_dictionary",
   "week03/test_address.py::test_extract_city",
   "week03/test_address.py::test_extract_state",
   "week03/test_address.py::test_extract_zipcode",
